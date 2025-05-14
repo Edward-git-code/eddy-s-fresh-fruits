@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>contacts</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+  .container {
+      width: 100%;
+    
+      margin: 0 auto;
+      font-family: Arial, sans-serif;
+      text-align: center;
+  }
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fcec14; 
+    text-align: center;
+  }
+
+  header {
+    background-color: #fde50a; 
+    padding: 20px;
+  }
+
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  main {
+    padding: 30px;
+    font-size: 1.2em;
+    color: #444;
+  }
+  .content {
+      padding: 5px 0px;
+      display:flex;
+      justify-content: space-around;
+      max-height: 90px;
+  }
+  .image-row {
+      display: flex;
+      justify-content: space-around;
+      align-items: left;
+      flex-wrap: wrap;
+      margin-top: 5px;
+  }
+  .image-row img {
+      max-width: 20%;
+      height: auto;
+      border-radius: 5px;
+    }
+    @media (max-width: 40px) {
+      .image-row {
+        flex-direction: column;
+      }
+  
+      .image-row img {
+        max-width: 10%;
+        margin-right: 10px;
+      }
+    }
+    
+    .center {
+  display:flex;
+  margin-bottom: auto;
+  margin-right: auto;
+  width: 70%;
+    }
+</style>
+<body>
+
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="juicetypes.html">Juice Types</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="contacts.html">Contacts</a>
+      <a href="location.html">Location</a>
+    </nav>
+  </header>
+
+ 
+    <h1 style="display: block; background-color: white; font-size: 80px; margin-top: 30px; margin-bottom: 40px;margin-left: 180px; margin-right: 100px; font-weight: 300; border-radius: 100%;">Contacts</h1>
+    <p>Phone: 0710316683</p>
+    <p>Phone: 0733524549</p>
+    <p>Phone: 0742956346</p>
+    <div class="content">
+      <div class="image" style="display:block;margin-block-end: 0px;justify-content: center;width:20%">
+        <img src="IMG-20240709-WA0003.jpg" alt="Fresh Sugarcane Juice" > 
+  
+</body>
+</html>
